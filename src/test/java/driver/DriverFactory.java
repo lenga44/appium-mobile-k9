@@ -17,6 +17,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
 
     public static AppiumDriver<MobileElement> getDriver(Platform platform){
 
+
         AppiumDriver<MobileElement> appiumDriver = null;
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(PLATFORM_NAME, "android");

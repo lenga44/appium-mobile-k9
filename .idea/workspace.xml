@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b05bb91-b4c4-4745-be32-ba898f66afc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/Home_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/Home_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/Home_03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chormedriver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/LoginScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/LoginScreen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/LoginScreen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/HybridContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/TakingScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/context/Contexts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/context/WaitMoreThanOneContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium-mobile-k9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appium-mobile-k9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/LoginFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2BcSKIWk0z9nKMPLVw3LERzn1Vj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,8 +67,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Home_03">
-    <configuration name="Home_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TakingScreenshot">
+    <configuration name="TakingScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.TakingScreenshot" />
+      <module name="appium-mobile-k9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api_learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="api_learning.Home_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api_learning.Home_01" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
@@ -75,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Home_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="api_learning.Home_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api_learning.Home_02" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
@@ -88,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Home_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="api_learning.Home_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api_learning.Home_03" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
@@ -101,21 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.Lesson_14" />
-      <module name="appium-mobile-k9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api_learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="api_learning.LoginFormTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.LoginFormTest" />
+    <configuration name="api_learning.HybridContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.HybridContext" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Home_03" />
-        <item itemvalue="Application.Home_02" />
-        <item itemvalue="Application.Home_01" />
-        <item itemvalue="Application.api_learning.LoginFormTest" />
-        <item itemvalue="Application.Lesson_14" />
+        <item itemvalue="Application.TakingScreenshot" />
+        <item itemvalue="Application.api_learning.HybridContext" />
+        <item itemvalue="Application.api_learning.Home_03" />
+        <item itemvalue="Application.api_learning.Home_02" />
+        <item itemvalue="Application.api_learning.Home_01" />
       </list>
     </recent_temporary>
   </component>
