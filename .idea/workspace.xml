@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b05bb91-b4c4-4745-be32-ba898f66afc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chormedriver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/LoginScreen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/LoginScreen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/LoginScreen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/HybridContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/TakingScreenshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/context/Contexts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/context/WaitMoreThanOneContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/HandleMultipleApps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/AppPackages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/components/global/BottomNavComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/components/login/LoginFormComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreenMod01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreenMod02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreenMod03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/UserDashBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" afterDir="false" />
     </list>
@@ -66,10 +70,14 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api_learning" />
+      <recent name="models.pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TakingScreenshot">
-    <configuration name="TakingScreenshot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.TakingScreenshot" />
+  <component name="RunManager" selected="Application.LoginWithComponents">
+    <configuration name="HandleMultipleApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.HandleMultipleApps" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="api_learning.Home_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.Home_01" />
+    <configuration name="LoginWithComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.LoginWithComponents" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="api_learning.Home_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.Home_02" />
+    <configuration name="LoginWithPOMMod01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.LoginWithPOMMod01" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="api_learning.Home_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.Home_03" />
+    <configuration name="LoginWithPOMMod02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.LoginWithPOMMod02" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="api_learning.HybridContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.HybridContext" />
+    <configuration name="LoginWithPOMMod03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.LoginWithPOMMod03" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TakingScreenshot" />
-        <item itemvalue="Application.api_learning.HybridContext" />
-        <item itemvalue="Application.api_learning.Home_03" />
-        <item itemvalue="Application.api_learning.Home_02" />
-        <item itemvalue="Application.api_learning.Home_01" />
+        <item itemvalue="Application.LoginWithComponents" />
+        <item itemvalue="Application.LoginWithPOMMod03" />
+        <item itemvalue="Application.LoginWithPOMMod02" />
+        <item itemvalue="Application.LoginWithPOMMod01" />
+        <item itemvalue="Application.HandleMultipleApps" />
       </list>
     </recent_temporary>
   </component>
