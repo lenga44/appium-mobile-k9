@@ -7,13 +7,18 @@ import org.openqa.selenium.By;
 
 public class BottomNavComponent {
     private final AppiumDriver<MobileElement> appiumDriver;
-    private final By loginBtnSel = MobileBy.AccessibilityId("Login");
+    private final By loginNavBtnSel = MobileBy.AccessibilityId("Login");
+    private final By dragNavBtnSel = MobileBy.AccessibilityId("Drag");
 
     public BottomNavComponent(AppiumDriver<MobileElement> appiumDriver) {
         this.appiumDriver = appiumDriver;
     }
 
     public void clickOnLoginNavBtn(){
-        appiumDriver.findElement(loginBtnSel).click();
+        appiumDriver.findElement(loginNavBtnSel).click();
+    }
+
+    public void clickOnDragNavBtnBtn(){
+        appiumDriver.findElement(dragNavBtnSel).click();
     }
 }

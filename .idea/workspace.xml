@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b05bb91-b4c4-4745-be32-ba898f66afc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/HandleMultipleApps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/AppPackages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/components/global/BottomNavComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/components/login/LoginFormComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreenMod01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreenMod02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/LoginScreenMod03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/UserDashBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api_learning/DrapAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/components/drag/DragComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/pages/DragScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/components/global/BottomNavComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/components/global/BottomNavComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +61,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="api_learning" />
       <recent name="models.pages" />
+      <recent name="api_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginWithComponents">
-    <configuration name="HandleMultipleApps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="api_learning.HandleMultipleApps" />
+  <component name="RunManager" selected="Application.DrapAndDrop">
+    <configuration name="DrapAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api_learning.DrapAndDrop" />
       <module name="appium-mobile-k9" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrapAndDrop" />
         <item itemvalue="Application.LoginWithComponents" />
         <item itemvalue="Application.LoginWithPOMMod03" />
         <item itemvalue="Application.LoginWithPOMMod02" />
         <item itemvalue="Application.LoginWithPOMMod01" />
-        <item itemvalue="Application.HandleMultipleApps" />
       </list>
     </recent_temporary>
   </component>
