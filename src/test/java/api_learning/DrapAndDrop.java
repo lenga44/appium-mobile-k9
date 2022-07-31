@@ -17,9 +17,9 @@ public class DrapAndDrop {
             DragScreen dragScreen =new DragScreen(appiumDriver);
             BottomNavComponent bottomNavComp = dragScreen.bottomNavComp();
             DragComponent dragComp = dragScreen.dragNavComp();
-
             bottomNavComp.clickOnDragNavBtnBtn();
             dragComp.dragAndDrop();
+
         }catch (Exception e){
             e.printStackTrace();
         }

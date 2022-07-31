@@ -8,19 +8,41 @@ import org.openqa.selenium.By;
 public class LoginFormComponent {
     private final AppiumDriver<MobileElement> appiumDriver;
     private final By usernameSel = MobileBy.AccessibilityId("input-email");
+    private final static By incorrectEmailTxtSel = MobileBy.xpath("//*[contains(@text, 'Please enter a valid email address')]");
     private final By passwordSel = MobileBy.AccessibilityId("input-password");
+    private final static By incorrectPasswordTxtSel = MobileBy.xpath("//*[contains(@text, 'Please enter at least 8 characters')]");
     private final By loginBtnSel = MobileBy.AccessibilityId("button-LOGIN");
+    private final static By correctLoginTxtSel = MobileBy.id("android:id/alertTitle");
 
     public LoginFormComponent(AppiumDriver<MobileElement> appiumDriver) {
         this.appiumDriver = appiumDriver;
     }
 
     public void inputToUsername(String usernameTxt){
-        if(!usernameTxt.isEmpty()) appiumDriver.findElement(usernameSel).sendKeys(usernameTxt);
+        if (!usernameTxt.isEmpty()) {
+            MobileElement usernameElem = appiumDriver.findElement(usernameSel);
+            usernameElem.clear();
+            usernameElem.sendKeys(usernameTxt);
+        }
     }
 
-    public void inputToPassword(String passwordTxt){
-        if(!passwordTxt.isEmpty()) appiumDriver.findElement(passwordSel).sendKeys(passwordTxt);
+    public String getInvalidEmail(){
+        return appiumDriver.findElement(incorrectEmailTxtSel).getText();
+    }
+
+    public void inputToPassword(String passwordTxt) {
+        if (!passwordTxt.isEmpty()) {
+            MobileElement passwordElem = appiumDriver.findElement(passwordSel);
+            passwordElem.clear();
+            passwordElem.sendKeys(passwordTxt);
+        }
+    }
+    public String getInvalidPassword(){
+        return appiumDriver.findElement(incorrectPasswordTxtSel).getText();
+    }
+
+    public String getCorrectLogin(){
+        return appiumDriver.findElement(correctLoginTxtSel).getText();
     }
 
     public void clickOnLoginBtn(){
