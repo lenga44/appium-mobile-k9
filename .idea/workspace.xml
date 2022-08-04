@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b05bb91-b4c4-4745-be32-ba898f66afc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data_models/LoginCred.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/gson/TestGSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/TestNGHook01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/testng/TestNGHook02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_8.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/DataObjectBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/authen/LoginCred.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appium-mobile-k9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appium-mobile-k9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_data_models/LoginCred.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/models/LoginCred.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gson/TestGSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gson/TestGSON.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/test-suites/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test-suites/Regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +69,7 @@
       <recent name="api_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestGSON">
+  <component name="RunManager" selected="TestNG./Users/lenga/IdeaProjects/SOURCE_CODE/appium-mobile-k9/src/test/resources/test-suites/Regression.xml">
     <configuration name="DrapAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="api_learning.DrapAndDrop" />
       <module name="appium-mobile-k9" />
@@ -167,8 +163,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestGSON" />
         <item itemvalue="TestNG./Users/lenga/IdeaProjects/SOURCE_CODE/appium-mobile-k9/src/test/resources/test-suites/Regression.xml" />
+        <item itemvalue="Application.TestGSON" />
         <item itemvalue="Application.DrapAndDrop" />
         <item itemvalue="Application.LoginWithComponents" />
         <item itemvalue="Application.LoginWithPOMMod03" />
@@ -199,5 +195,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataBuilder.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
