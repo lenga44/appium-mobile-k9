@@ -5,12 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b05bb91-b4c4-4745-be32-ba898f66afc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/DataObjectBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/authen/LoginCred.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/023f3c89-f44a-4844-a080-460389b3dec4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0db09e93-4a74-4fe4-9b0a-cbfb141cf66e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1076b18b-be50-42db-b2de-03c5416a46a6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/164978d5-7588-40a1-bbc7-93f428383ec5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/181b12bb-1ebe-4ef5-9460-dcb5a129396a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1b978dd7-0d71-4632-a08f-00840e76201c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d37b906-7f31-4452-b756-8b575bfb8442-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2d608616-813c-4278-8d31-64d379330796-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3d52c09c-9e09-483f-b849-5e55a66dbb4e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4179c45a-afb2-4461-bc97-057ce92310de-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/46291aa8-9f9d-4442-b076-2ac733845f09-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4666331b-8019-424f-bc06-898bb6fca33f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/473048c6-b2fe-4f4b-82c1-05b5b5561768-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/49062c8b-4bb1-4110-a549-bf3ce0518d66-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4db9c50f-fd88-46e0-a880-851f303ae20e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5239f230-4ecf-4cff-a7dc-8fb1ca748191-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/57353c5d-c76a-4c30-bdc2-2414dd860248-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/801375d1-435c-4ed7-b2dd-ed072445f6c8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/88c8acb2-900b-497d-83fb-67003897e164-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/89079587-90b0-4312-b56c-be9a1e4413e8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/98e852cc-19eb-4d12-98f5-a28a0bd95e71-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a3788a44-480b-44d3-9587-5d379591f1b3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a47ad0cf-ee43-4e2b-9c21-0bddf0acdcfe-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b8b95ba7-6250-49e0-96ef-c0bba223158d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bb81f7aa-e7f8-4bee-a2af-62102f9976cb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c2699366-c973-463b-96eb-a2f2b1b61a68-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cd05f670-183a-4134-a803-340875804d5d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1b63fa5-a044-4091-a587-6c43ace2834d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d922717e-8e5f-46c4-afd5-bc134af37126-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/db0644fa-a18a-464f-8277-6c2038d2b190-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3d082a8-7aa6-43a1-9e31-bb5d9dd37885-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ea69fc34-7a47-4157-b6e2-6c92ae1ec2e7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eb737b1b-2d17-4648-ad9a-f949ced78a9a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fe18fef4-6612-4a62-97a0-fe24337b0c30-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_data_models/LoginCred.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/models/LoginCred.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/gson/TestGSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/gson/TestGSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appium-mobile-k9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appium-mobile-k9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/test-suites/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test-suites/Regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +67,14 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -55,7 +98,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">

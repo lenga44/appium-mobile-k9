@@ -12,3 +12,4 @@ buildNumber.properties
 .idea
 screenshots
 apache-maven-3.8.6
+allure-*
