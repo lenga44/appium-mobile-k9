@@ -1,4 +1,4 @@
-package tests.authen;
+package tests.parallel;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -7,7 +7,7 @@ import test_data.models.LoginCred;
 import test_flow.authenticaton.LoginFlow;
 import tests.BaseTest;
 
-public class LoginTestWithBaseTest extends BaseTest {
+public class LoginDevice01 extends BaseTest {
 
     @Test(dataProvider = "LoginCredData")
     public void testLogin(LoginCred loginCred) {
