@@ -5,13 +5,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b05bb91-b4c4-4745-be32-ba898f66afc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parallel/LoginDevice01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parallel/LoginDevice02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/ParameterSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/hubConfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/node_6000_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/node_7100_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/selenium-grid-custom-matcher-3.141.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_grid/selenium-server-standalone-3.141.59.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_7_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_10.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/023f3c89-f44a-4844-a080-460389b3dec4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0db09e93-4a74-4fe4-9b0a-cbfb141cf66e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1076b18b-be50-42db-b2de-03c5416a46a6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/164978d5-7588-40a1-bbc7-93f428383ec5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/181b12bb-1ebe-4ef5-9460-dcb5a129396a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1b978dd7-0d71-4632-a08f-00840e76201c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d37b906-7f31-4452-b756-8b575bfb8442-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2d608616-813c-4278-8d31-64d379330796-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3d52c09c-9e09-483f-b849-5e55a66dbb4e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4179c45a-afb2-4461-bc97-057ce92310de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/46291aa8-9f9d-4442-b076-2ac733845f09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4666331b-8019-424f-bc06-898bb6fca33f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/473048c6-b2fe-4f4b-82c1-05b5b5561768-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/49062c8b-4bb1-4110-a549-bf3ce0518d66-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4db9c50f-fd88-46e0-a880-851f303ae20e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5239f230-4ecf-4cff-a7dc-8fb1ca748191-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57353c5d-c76a-4c30-bdc2-2414dd860248-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/801375d1-435c-4ed7-b2dd-ed072445f6c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/88c8acb2-900b-497d-83fb-67003897e164-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/89079587-90b0-4312-b56c-be9a1e4413e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98e852cc-19eb-4d12-98f5-a28a0bd95e71-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a3788a44-480b-44d3-9587-5d379591f1b3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a47ad0cf-ee43-4e2b-9c21-0bddf0acdcfe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b8b95ba7-6250-49e0-96ef-c0bba223158d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bb81f7aa-e7f8-4bee-a2af-62102f9976cb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c2699366-c973-463b-96eb-a2f2b1b61a68-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cd05f670-183a-4134-a803-340875804d5d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d1b63fa5-a044-4091-a587-6c43ace2834d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d922717e-8e5f-46c4-afd5-bc134af37126-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/db0644fa-a18a-464f-8277-6c2038d2b190-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e3d082a8-7aa6-43a1-9e31-bb5d9dd37885-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ea69fc34-7a47-4157-b6e2-6c92ae1ec2e7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eb737b1b-2d17-4648-ad9a-f949ced78a9a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fe18fef4-6612-4a62-97a0-fe24337b0c30-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/DrapAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/DrapAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/HandleMultipleApps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/HandleMultipleApps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/Home_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/Home_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/Home_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/Home_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/Home_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/Home_03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/HybridContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/HybridContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/LoginFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/LoginWithPOMMod03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api_learning/TakingScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api_learning/TakingScreenshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/driver/MobileCapabilityTypeEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/MobileCapabilityTypeEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/components/login/LoginFormComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/components/login/LoginFormComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/platform/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/platform/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_flow/authenticaton/LoginFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_flow/authenticaton/LoginFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/authen/LoginTestWithDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/parallel/LoginDevice01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/parallel/LoginDevice01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test-suites/ParameterSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test-suites/ParameterSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +157,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lenga/IdeaProjects/SOURCE_CODE/appium-mobile-k9/src/test/resources/test-suites&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lenga/IdeaProjects/SOURCE_CODE/appium-mobile-k9/selenium_grid&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -68,7 +166,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selenium_grid" />
       <recent name="$PROJECT_DIR$/src/test/resources/test-suites" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/selenium_grid" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
